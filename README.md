@@ -62,5 +62,3 @@ Anda dapat menggunakan akun berikut untuk menguji hak akses:
 * **Karyawan**
     * **Username:** karyawan
     * **Password:** karyawan123
-
-*(Catatan: Pastikan Anda membuat akun-akun ini di database Anda agar sesuai dengan `README`)*
