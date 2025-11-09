@@ -6,7 +6,7 @@ Ini adalah aplikasi web sederhana yang dibangun menggunakan **PHP Native** untuk
 
 ## 🌟 Fitur Utama
 
-Aplikasi ini memiliki 3 level pengguna dengan hak akses yang berbeda:
+Sistem ini memiliki 3 level pengguna dengan hak akses yang berbeda:
 
 ### 1. Karyawan (Role: `karyawan`)
 * **CRUD** data Pelanggan
@@ -24,15 +24,6 @@ Aplikasi ini memiliki 3 level pengguna dengan hak akses yang berbeda:
 * **Semua hak akses Manajer**
 * **CRUD** data Pengguna (mengelola akun admin, manajer, dan karyawan)
 * **Recycle Bin**: Dapat me-*restore* atau menghapus permanen data yang sudah di-*soft-delete* di semua modul.
-
----
-
-## 🛠️ Teknologi yang Digunakan
-
-* **Backend:** PHP 8.x (Native, tanpa *framework*)
-* **Database:** MySQL / MariaDB
-* **Frontend:** Tailwind CSS (via Play CDN)
-* **Pola Desain:** MVC (Model-View-Controller) sederhana
 
 ---
 
