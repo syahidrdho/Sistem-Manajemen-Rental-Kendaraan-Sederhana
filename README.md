@@ -1,4 +1,4 @@
-# 🚗 Aplikasi Manajemen Rental Kendaraan Sederhana
+# 🚗 Sistem Manajemen Rental Kendaraan 
 
 Ini adalah aplikasi web sederhana yang dibangun menggunakan **PHP Native** untuk mengelola operasi rental kendaraan. Aplikasi ini menerapkan pola desain Model-View-Controller (MVC) dasar dan memiliki sistem hak akses berbasis peran (Role-Based Access Control - RBAC).
 
@@ -6,7 +6,7 @@ Ini adalah aplikasi web sederhana yang dibangun menggunakan **PHP Native** untuk
 
 ## 🌟 Fitur Utama
 
-Aplikasi ini memiliki 3 level pengguna dengan hak akses yang berbeda:
+Sistem ini memiliki 3 level pengguna dengan hak akses yang berbeda:
 
 ### 1. Karyawan (Role: `karyawan`)
 * **CRUD** data Pelanggan
@@ -27,15 +27,6 @@ Aplikasi ini memiliki 3 level pengguna dengan hak akses yang berbeda:
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
-
-* **Backend:** PHP 8.x (Native, tanpa *framework*)
-* **Database:** MySQL / MariaDB
-* **Frontend:** Tailwind CSS (via Play CDN)
-* **Pola Desain:** MVC (Model-View-Controller) sederhana
-
----
-
 ## 🚀 Cara Menjalankan Proyek
 
 1.  **Clone Repositori**
@@ -46,7 +37,7 @@ Aplikasi ini memiliki 3 level pengguna dengan hak akses yang berbeda:
 2.  **Database**
     * Buka `phpMyAdmin`.
     * Buat database baru dengan nama `rental_kendaraan`.
-    * Impor file `rental_kendaraan.sql` (Anda harus mengekspor database Anda ke file ini) ke dalam database yang baru Anda buat.
+    * Impor file `rental_kendaraan.sql` 
 
 3.  **Koneksi**
     * Buka file `config.php`.
@@ -71,5 +62,3 @@ Anda dapat menggunakan akun berikut untuk menguji hak akses:
 * **Karyawan**
     * **Username:** karyawan
     * **Password:** karyawan123
-
-*(Catatan: Pastikan Anda membuat akun-akun ini di database Anda agar sesuai dengan `README`)*
